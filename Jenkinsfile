@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {   
-        stage('Master branch') { 
+        stage('Master branch is updated') { 
             steps { 
-               sh 'echo "This is master branch"' 
+               sh 'echo "This is master branch is updated"' 
             }
         }
      
